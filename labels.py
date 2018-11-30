@@ -73,7 +73,7 @@ if __name__ == "__main__":
     for image in detect_labels(directory_path):
         file_writer.writerow(image)
 
-    print ("Method 1 done! Results are written in " + results_m1)
+    print ("local analysis (m1) done! Results are written in " + results_m1)
 
     # Method 2: uri analysis
     csv_file = 'uri list.csv'
@@ -87,4 +87,4 @@ if __name__ == "__main__":
     for image in detect_labels_uri(csv_file):
         file_writer.writerow(image)
 
-    print ("Method 2 done! Results are written in " + results_m2)
+    print ("uri analysis (m2) done! Results are written in " + results_m2)
