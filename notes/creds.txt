@@ -1,0 +1,3 @@
+$env:GOOGLE_APPLICATION_CREDENTIALS="C:\Users\Jay\Desktop\ctr presentation\code\ctr-practice-http-07d408e05b92.json"
+
+set GOOGLE_APPLICATION_CREDENTIALS=C:\Users\Jay\Desktop\ctr presentation\code\ctr-practice-http-07d408e05b92.json
